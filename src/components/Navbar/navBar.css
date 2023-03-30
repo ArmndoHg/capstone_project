@@ -1,0 +1,21 @@
+.logo-img {
+  background-size: cover;
+  object-fit: fill;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  border: 1px solid #a5a4a4e3;
+}
+
+.navbar {
+  padding: 0.2rem 0.5rem;
+}
+
+.bg-navbar-white {
+  background-color: white;
+  border-bottom: 1px solid #cfcfcfe3;
+}
+
+.letter-navbar {
+  font-size: x-large;
+}
