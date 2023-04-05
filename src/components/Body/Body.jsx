@@ -11,7 +11,7 @@ const Body = () => (
             <Icon.Eyedropper size={30} style={{ color: "brown" }} />
           </div>
         </span>
-        <h1>What Is Neurotherapy? </h1>
+        <h1>What Is naturotherapy? </h1>
         <p>
           Neurotherapy, also called neurofeedback and electroencephalogram (EEG)
           biofeedback, is a drug-free treatment that helps people improve their

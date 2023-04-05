@@ -3,12 +3,14 @@ import AboveNavBar from "./AboveNavBar/AboveNavBar";
 import Body from "./Body/Body";
 import Course from "./Course/Course";
 import MyNavbar from "./Navbar/MyNavbar";
+import Jumbotron from "./Jumbotron/Jumbotron";
 
 const Homepage = () => (
   <div className="home">
-    <AboveNavBar />
+    {/* <AboveNavBar /> */}
     <MyNavbar />
-    <Course />
+    <Jumbotron />
+    {/* <Course /> */}
     <Body />
   </div>
 );

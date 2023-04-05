@@ -1,12 +1,22 @@
+:root {
+  --facebook: #4292ff;
+  --whatsApp: #1bd741;
+  --email: tomato;
+  --maps: rgb(129, 52, 52);
+}
+
 .logo-img {
   background-size: cover;
   object-fit: fill;
-  width: 10vh;
-  height: 10vh;
+  width: 8vh;
+  height: 8vh;
   border-radius: 50%;
-  border: 1px solid #a5a4a4e3;
+  border: 1px solid #555565;
 }
 
+.nav-link {
+  padding: 0.9rem 1rem;
+}
 .navbar {
   padding: 0.2rem 0.5rem;
 }
@@ -18,4 +28,33 @@
 
 .letter-navbar {
   font-size: x-large;
+  color: #555565 !important;
+}
+
+.letter-navbar:hover {
+  background-color: #eeeded;
+}
+
+.color-icons {
+  color: #555565 !important;
+}
+
+.facebook-icon:hover {
+  color: var(--facebook) !important;
+}
+
+.whatsapp-icon:hover {
+  color: var(--whatsApp) !important;
+}
+
+.phone-icon:hover {
+  color: black !important;
+}
+
+.e-mail-icon:hover {
+  color: var(--email) !important;
+}
+
+.maps-icon:hover {
+  color: var(--maps) !important;
 }

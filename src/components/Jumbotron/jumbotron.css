@@ -1,0 +1,9 @@
+.jumbotron-img {
+  width: 100%;
+}
+
+.jumbotron-img .imagen {
+  width: 100%;
+  height: 70vh;
+  object-fit: contain;
+}
