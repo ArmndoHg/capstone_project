@@ -1,0 +1,21 @@
+.list-can-help {
+  width: 45%;
+  text-align: left;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.containter-body {
+  width: 50%;
+}
+
+.dropper {
+  width: 100%;
+}
+.dropper::before {
+  display: flex;
+
+  content: "";
+  border: 1px solid black;
+}

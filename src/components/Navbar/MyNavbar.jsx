@@ -27,6 +27,12 @@ const MyNavbar = () => (
             About me
           </Nav.Link>
           <Nav.Link eventKey={2} href="#memes" className="letter-navbar">
+            Tips
+          </Nav.Link>
+          <Nav.Link eventKey={2} href="#memes" className="letter-navbar">
+            Price
+          </Nav.Link>
+          <Nav.Link eventKey={2} href="#memes" className="letter-navbar">
             Courses
           </Nav.Link>
         </Nav>

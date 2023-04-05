@@ -10,7 +10,7 @@ const Course = () => (
           <Carousel.Item>
             <img
               className="d-block w-100 courseImg"
-              src="https://scontent-frt3-2.xx.fbcdn.net/v/t39.30808-6/331765245_928501758172521_8799845159811795185_n.jpg?stp=dst-jpg_p180x540&_nc_cat=108&ccb=1-7&_nc_sid=340051&_nc_ohc=iTJE7u2w3hYAX-_Mr5O&_nc_ht=scontent-frt3-2.xx&oh=00_AfBnshCFvrpLUMvewzOyghnRDV6nM8YFem7azHu2uKn57w&oe=64282E4B"
+              src="https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/328607920_587650606168605_6202742407367884539_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=BbyV8jjLy4MAX89KfS5&_nc_ht=scontent.fktw1-1.fna&oh=00_AfBuxcMZd0rfvInPVePK0Z1fn7jFHMQNLKOhEWgkih7iOg&oe=642F757D"
               alt="First slide"
             />
             <Carousel.Caption>
@@ -21,7 +21,7 @@ const Course = () => (
           <Carousel.Item>
             <img
               className="d-block w-100 courseImg"
-              src="https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-6/328607920_587650606168605_6202742407367884539_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=phiEBpTvJUAAX9A3eEC&_nc_ht=scontent-fra5-1.xx&oh=00_AfCXlQe7PHTBCMTgbFeH6RmMOzX9YkLDkHmhMVPATkf_8Q&oe=642986BD"
+              src="https://scontent.fktw4-1.fna.fbcdn.net/v/t39.30808-6/328155171_912844756511497_4782936101851217151_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=91lxBAC7WksAX8mcsUo&_nc_ht=scontent.fktw4-1.fna&oh=00_AfDBgegYaWAeP9nsYLptRJS9NG75acodfKs2yxi8h1J_Dg&oe=642F0B5A"
               alt="Second slide"
             />
 
@@ -33,7 +33,7 @@ const Course = () => (
           <Carousel.Item>
             <img
               className="d-block w-100 courseImg"
-              src="https://scontent-frt3-2.xx.fbcdn.net/v/t39.30808-6/328155171_912844756511497_4782936101851217151_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=q2iINK_oiBkAX-2hC97&_nc_ht=scontent-frt3-2.xx&oh=00_AfAO16bFL6DJ4ksVhJyd8OHUFNOdAWMpeHUnJqkFhyfawA&oe=64291C9A"
+              src="https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/328621846_906502957146494_803115569198274689_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=wORvqfoc260AX_hyI7V&_nc_ht=scontent.fktw1-1.fna&oh=00_AfCs0_36u84ssqBGgWEDmyR1IWxtCADSXPnF5bxuOQezmQ&oe=642E4557"
               alt="Third slide"
             />
 
