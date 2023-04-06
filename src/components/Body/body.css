@@ -1,9 +1,11 @@
 :root {
   --color-header: #343838;
 }
+
 .containter-body {
   width: 75%;
   margin-top: 1rem;
+  margin-bottom: 2em;
 }
 
 .list-body {
@@ -64,7 +66,33 @@
   width: 100%;
 }
 
-.therapy-photo {
+.therapy-photo1 {
+  background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202011/smoothie-3697014_1280_1200x768.jpeg?size=690:388);
+}
+.therapy-photo2 {
+  background-image: url(https://mch.pranaspapremium.pl/wp-content/uploads/2019/06/masaz-stop-i-nog-refleksoterapia.jpg);
+}
+.therapy-photo3 {
+  background-image: url(https://sagehealthonline.com/wp-content/uploads/2016/08/Fire-cupping-on-back.jpg);
+}
+.therapy-photo4 {
+  background-image: url(https://www.artennua.com/wp-content/uploads/2020/04/post-626x313.jpg);
+}
+
+.therapy-photo1,
+.therapy-photo2,
+.therapy-photo3,
+.therapy-photo4 {
   width: 100%;
   height: 40vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.filter-photos {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
 }

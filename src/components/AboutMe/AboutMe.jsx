@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import aboutMe from "./aboutMe.css";
 
 const AboutMe = () => (
-  <Container>
+  <Container className="about-me">
     <Row>
       <Col lg={4}>
         <div className="about-me-body-photo">
@@ -24,16 +24,20 @@ const AboutMe = () => (
             </div>
             <div className="about-me-text">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Deserunt perspiciatis excepturi iusto nesciunt illum, ducimus
-                laborum, itaque vero numquam temporibus suscipit laboriosam
-                natus alias mollitia aliquam cum nostrum, dicta reprehenderit.
+                I am a professional, certified naturopath, Detox Specialist,
+                Iridologist and Sound Therapist, a nurse by education. My
+                passion and mission is to help in healing, which stems from the
+                understanding that each of us has a huge healing power that
+                allows you to overcome even the greatest dysfunctions and
+                symptoms of the body.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                tempore quaerat similique, ipsum corrupti iusto illum in,
-                dolorum aut id placeat ea delectus ducimus laborum quod fugiat
-                iste velit! Velit!
+                I direct my charges to discover their own power, cleanse the
+                body and regain full health, vitality and satisfaction with
+                life. For this purpose, I use natural tools that I have learned
+                over 10 years of my own research, practicing and testing them on
+                myself and implementing them in the healing protocols of my
+                patients.
               </p>
             </div>
           </div>

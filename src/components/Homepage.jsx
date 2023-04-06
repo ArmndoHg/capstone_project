@@ -12,9 +12,9 @@ const Homepage = () => (
     {/* <AboveNavBar /> */}
     <MyNavbar />
     <Jumbotron />
-
-    <Body />
     <AboutMe />
+    <Body />
+
     <Footer />
     {/* <Course /> */}
   </div>
