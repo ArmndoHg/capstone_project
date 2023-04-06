@@ -1,4 +1,5 @@
 :root {
+  --colorNavbar: #555565;
   --facebook: #4292ff;
   --whatsApp: #1bd741;
   --email: tomato;
@@ -14,8 +15,17 @@
   border: 1px solid #555565;
 }
 
+/* .logo-img:hover {
+  border: 2px solid #005f6b;
+} */
+
 .nav-link {
   padding: 0.9rem 1rem;
+  color: var(--colorNavbar) !important;
+}
+
+.nav-link:hover {
+  color: #005f6b !important;
 }
 .navbar {
   padding: 0.2rem 0.5rem;
@@ -28,15 +38,16 @@
 
 .letter-navbar {
   font-size: x-large;
-  color: #555565 !important;
+  color: var(--colorNavbar) !important;
 }
 
 .letter-navbar:hover {
-  background-color: #eeeded;
+  background-color: #f8f8f8;
+  color: #005f6b !important;
 }
 
 .color-icons {
-  color: #555565 !important;
+  color: var(--colorNavbar) !important;
 }
 
 .facebook-icon:hover {
@@ -57,4 +68,13 @@
 
 .maps-icon:hover {
   color: var(--maps) !important;
+}
+
+.dropdown-item.active {
+  background-color: #839fa1;
+  color: rgb(255, 255, 255) !important;
+}
+
+.dropdown-line {
+  border-bottom: 1px solid #e9e7e7e3;
 }

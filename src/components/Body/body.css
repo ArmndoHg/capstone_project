@@ -1,21 +1,52 @@
-.list-can-help {
-  width: 45%;
-  text-align: left;
-  display: inline-block;
-  margin-left: 0;
-  margin-right: 0;
+:root {
+  --color-header: #343838;
 }
-
 .containter-body {
-  width: 50%;
+  width: 60%;
+  margin-top: 1rem;
 }
 
-.dropper {
-  width: 100%;
+.list-body {
+  margin: 2rem;
 }
-.dropper::before {
-  display: flex;
 
+.list-icon {
+  padding-right: 1rem;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.header-body {
+  color: var(--color-header);
+}
+
+.list-icon::before {
   content: "";
-  border: 1px solid black;
+}
+
+.ul-dots {
+  list-style: none;
+}
+
+.list-icon-description {
+  font-size: 1.5rem;
+}
+
+.divider {
+  color: #23a455;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider::before,
+.divider::after {
+  width: 30vh;
+  display: flex;
+  content: "";
+  border: 0.1vh solid #23a455;
+}
+
+.leaf-icon {
+  margin: 0.5rem;
 }

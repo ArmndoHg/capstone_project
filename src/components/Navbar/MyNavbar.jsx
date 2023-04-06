@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import navBar from "./navBar.css";
 import * as Icon from "react-bootstrap-icons";
 import logo from "../../assets/logo.jpg";
@@ -23,14 +23,56 @@ const MyNavbar = () => (
         <Nav.Link href="#deets" className="letter-navbar">
           About me
         </Nav.Link>
-        <Nav.Link eventKey={2} href="#memes" className="letter-navbar">
-          Blog
-        </Nav.Link>
+
+        <NavDropdown
+          className="letter-navbar"
+          title="Offer"
+          id="collasible-nav-dropdown"
+        >
+          <NavDropdown.Item
+            href="#action/3.1"
+            className="letter-navbar dropdown-line"
+          >
+            Reflexotherapy
+          </NavDropdown.Item>
+          <NavDropdown.Item
+            href="#action/3.2"
+            className="letter-navbar dropdown-line"
+          >
+            Fire Cupping
+          </NavDropdown.Item>
+          <NavDropdown.Item
+            href="#action/3.3"
+            className="letter-navbar dropdown-line"
+          >
+            Facial acupuncture
+          </NavDropdown.Item>
+
+          <NavDropdown.Item
+            href="#action/3.4"
+            className="letter-navbar dropdown-line"
+          >
+            TCM Diet
+          </NavDropdown.Item>
+          <NavDropdown.Item
+            href="#action/3.5"
+            className="letter-navbar dropdown-line"
+          >
+            Herbal Medicine
+          </NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.6" className="letter-navbar">
+            Body Detox
+          </NavDropdown.Item>
+        </NavDropdown>
+
         <Nav.Link eventKey={2} href="#memes" className="letter-navbar">
           Price list
         </Nav.Link>
         <Nav.Link eventKey={2} href="#memes" className="letter-navbar">
           Courses
+        </Nav.Link>
+        <Nav.Link eventKey={2} href="#memes" className="letter-navbar">
+          Blog
         </Nav.Link>
       </Nav>
       <Nav>
