@@ -5,6 +5,7 @@ import Course from "./Course/Course";
 import MyNavbar from "./Navbar/MyNavbar";
 import Jumbotron from "./Jumbotron/Jumbotron";
 import Footer from "./Footer/Footer";
+import AboutMe from "./AboutMe/AboutMe";
 
 const Homepage = () => (
   <div className="home">
@@ -13,6 +14,7 @@ const Homepage = () => (
     <Jumbotron />
 
     <Body />
+    <AboutMe />
     <Footer />
     {/* <Course /> */}
   </div>

@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import body from "./body.css";
 import * as Icon from "react-bootstrap-icons";
 import * as Iconra from "react-icons/fa";
+import { GiHealthPotion, GiUbisoftSun } from "react-icons/gi";
+import { TbBrandDrops } from "react-icons/tb";
 const Body = () => (
   <Container className="containter-body">
     <Row>
@@ -17,7 +19,7 @@ const Body = () => (
           <ul className="ul-dots">
             <li className="list-body d-flex">
               <span className="list-icon d-flex">
-                <Icon.Fire size={35} />
+                <GiUbisoftSun size={35} />
               </span>
               <span className="list-icon-description">
                 Helps to restore proper health in a natural way
@@ -25,7 +27,7 @@ const Body = () => (
             </li>
             <li className="list-body d-flex">
               <span className="list-icon d-flex">
-                <Icon.Fire size={35} />
+                <GiHealthPotion size={35} />
               </span>
               <span className="list-icon-description">
                 Naturopaths use traditional medical systems from around the
@@ -34,7 +36,7 @@ const Body = () => (
             </li>
             <li className="list-body d-flex">
               <span className="list-icon d-flex">
-                <Icon.Fire size={35} />
+                <TbBrandDrops size={35} />
               </span>
               <span className="list-icon-description">
                 <font>
@@ -46,7 +48,7 @@ const Body = () => (
             </li>
             <li className="list-body d-flex">
               <span className="list-icon d-flex">
-                <Icon.Fire size={35} />
+                <TbBrandDrops size={35} />
               </span>
               <span className="list-icon-description">
                 The unique properties of certain plants enable effective action
@@ -56,7 +58,7 @@ const Body = () => (
             </li>
             <li className="list-body d-flex">
               <span className="list-icon d-flex">
-                <Icon.Fire size={35} />
+                <TbBrandDrops size={35} />
               </span>
               <span className="list-icon-description">
                 Psychological aspect of the patient it is often the key that
@@ -66,7 +68,7 @@ const Body = () => (
             </li>
             <li className="list-body d-flex">
               <span className="list-icon d-flex">
-                <Icon.Fire size={35} />
+                <TbBrandDrops size={35} />
               </span>
               <span className="list-icon-description">
                 helps to restore proper health in a natural way
@@ -75,30 +77,50 @@ const Body = () => (
           </ul>
         </div>
       </Col>
-
-      <Col s={12} sm={12} lg={12}>
-        <h1>What Neurotherapy Can Help With</h1>
-        <p>
-          Neurotherapy addresses brain dysregulation. A variety of conditions
-          and symptoms are related to brain dysregulation, so there are many
-          applications for neurotherapy. Some of the most common conditions
-          treated with neurotherapy include:
-        </p>
-        <div className="list-body">
-          <ul className="list-can-help">
-            <li>Anxiety disorders</li>
-            <li>Attention-deficit/hyperactivity disorder (ADHD)</li>
-            <li>Autism spectrum disorders (ASD)</li>
-            <li>Bipolar disorder</li>
-            <li>Chronic pain</li>
-            <li>Depression</li>
-            <li>Fatigue</li>
-            <li>Learning disabilities</li>
-            <li>Migraines</li>
-            <li>Obsessive-compulsive disorder (OCD)</li>
-            <li>Post-traumatic stress disorder (PTSD)</li>
-            <li>Sleep disorders</li>
-          </ul>
+    </Row>
+    <Row>
+      <Col s={12} sm={12} lg={3}>
+        <div className="therapy-section">
+          <div className="therapy-img">
+            <img
+              src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202011/smoothie-3697014_1280_1200x768.jpeg?size=690:388"
+              alt=""
+              className="therapy-photo"
+            />
+          </div>
+        </div>
+      </Col>
+      <Col lg={3}>
+        <div className="therapy-section">
+          <div className="therapy-img">
+            <img
+              src="https://mch.pranaspapremium.pl/wp-content/uploads/2019/06/masaz-stop-i-nog-refleksoterapia.jpg"
+              alt=""
+              className="therapy-photo"
+            />
+          </div>
+        </div>
+      </Col>{" "}
+      <Col lg={3}>
+        <div className="therapy-section">
+          <div className="therapy-img">
+            <img
+              src="https://sagehealthonline.com/wp-content/uploads/2016/08/Fire-cupping-on-back.jpg"
+              alt=""
+              className="therapy-photo"
+            />
+          </div>
+        </div>
+      </Col>{" "}
+      <Col lg={3}>
+        <div className="therapy-section">
+          <div className="therapy-img">
+            <img
+              src="https://www.artennua.com/wp-content/uploads/2020/04/post-626x313.jpg"
+              alt=""
+              className="therapy-photo"
+            />
+          </div>
         </div>
       </Col>
     </Row>
