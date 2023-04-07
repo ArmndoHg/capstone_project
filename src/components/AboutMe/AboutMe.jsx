@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import aboutMe from "./aboutMe.css";
+import "./aboutMe.css";
 
 const AboutMe = () => (
   <Container className="about-me">

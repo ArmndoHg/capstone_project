@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel, Container, Row, Col } from "react-bootstrap";
-import course from "./course.css";
+import "./course.css";
 
 const Course = () => (
   <Container>

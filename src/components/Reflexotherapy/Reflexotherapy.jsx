@@ -1,23 +1,18 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./body.css";
-
-// import * as Iconra from "react-icons/fa";
-import { TbBrandDrops } from "react-icons/tb";
+import "./reflexotherapy.css";
 import Divider from "../Divider/Divider";
+import { TbBrandDrops } from "react-icons/tb";
 
-const Body = () => (
-  <Container className="containter-body">
-    <Row>
-      <Col s={12} sm={12} lg={12}>
-        {/* <h1 className="text-center header-body">What Is Naturotherapy? </h1>
-        <div className="text-center divider ">
-          <span>
-            <Iconra.FaLeaf size={30} className="d-flex leaf-icon" />
-          </span>
-        </div> */}
-        <Divider header="What is Naturotherapy?" />
-        <div className="description-homepage">
+const Reflexotherapy = () => (
+  <Row>
+    <Col lg={12}>
+      {" "}
+      <Divider header="Reflexotherapy" />
+    </Col>
+    <Col lg={6}>
+      <div className="reflexo-body">
+        <div className="reflexo-section1">
           <ul className="ul-dots">
             <li className="list-body d-flex">
               <span className="list-icon d-flex">
@@ -78,47 +73,29 @@ const Body = () => (
             </li>
           </ul>
         </div>
-      </Col>
-    </Row>
-    <Row>
-      <Col s={12} sm={12} lg={3}>
-        <div className="therapy-section">
-          <div className="therapy-img">
-            <div className="therapy-photo1">
-              <div className="filter-photos"></div>
-            </div>
-          </div>
+      </div>
+    </Col>
+    <Col lg={6}>
+      <div className="reflexo-body">
+        <div className="reflexo-section1">
+          <img
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1086849572.jpg?crop=0.668xw:1.00xh;0.282xw,0&resize=480:*"
+            alt=""
+          />
         </div>
-      </Col>
-      <Col lg={3}>
-        <div className="therapy-section">
-          <div className="therapy-img">
-            <div className="therapy-photo2">
-              <div className="filter-photos"></div>
-            </div>
-          </div>
-        </div>
-      </Col>{" "}
-      <Col lg={3}>
-        <div className="therapy-section">
-          <div className="therapy-img">
-            <div className="therapy-photo3">
-              <div className="filter-photos"></div>
-            </div>
-          </div>
-        </div>
-      </Col>{" "}
-      <Col lg={3}>
-        <div className="therapy-section">
-          <div className="therapy-img">
-            <div className="therapy-photo4">
-              <div className="filter-photos"></div>
-            </div>
-          </div>
-        </div>
-      </Col>
-    </Row>
-  </Container>
+      </div>
+    </Col>
+    <Col lg={6}>
+      <div className="reflexo-body">
+        <div className="reflexo-section1"></div>
+      </div>
+    </Col>
+    <Col lg={6}>
+      <div className="reflexo-body">
+        <div className="reflexo-section1"></div>
+      </div>
+    </Col>
+  </Row>
 );
 
-export default Body;
+export default Reflexotherapy;

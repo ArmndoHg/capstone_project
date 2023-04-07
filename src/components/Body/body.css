@@ -1,10 +1,6 @@
-:root {
-  --color-header: #343838;
-}
-
 .containter-body {
   width: 75%;
-  margin-top: 1rem;
+
   margin-bottom: 2em;
 }
 
@@ -18,10 +14,6 @@
   align-content: center;
 }
 
-.header-body {
-  color: var(--color-header);
-}
-
 .list-icon::before {
   content: "";
 }
@@ -33,25 +25,6 @@
 .list-icon-description {
   font-size: 1.5rem;
   color: grey;
-}
-
-.divider {
-  color: #23a455;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.divider::before,
-.divider::after {
-  width: 30vh;
-  display: flex;
-  content: "";
-  border: 0.1vh solid #23a455;
-}
-
-.leaf-icon {
-  margin: 0.5rem;
 }
 
 /* pictures */

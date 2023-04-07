@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
-import navBar from "./navBar.css";
+import "./navBar.css";
 import * as Icon from "react-bootstrap-icons";
 import logo from "../../assets/logo.jpg";
 
@@ -13,7 +13,7 @@ const MyNavbar = () => (
     variant="light"
     sticky="top"
   >
-    <Navbar.Brand href="/">
+    <Navbar.Brand href="/home">
       <img src={logo} alt="logo" className="logo-img" />
     </Navbar.Brand>
 

@@ -6,17 +6,20 @@ import MyNavbar from "./Navbar/MyNavbar";
 import Jumbotron from "./Jumbotron/Jumbotron";
 import Footer from "./Footer/Footer";
 import AboutMe from "./AboutMe/AboutMe";
+import Reflexotherapy from "./Reflexotherapy/Reflexotherapy";
 
 const Homepage = () => (
   <div className="home">
     {/* <AboveNavBar /> */}
     <MyNavbar />
     <Jumbotron />
-    <AboutMe />
-    <Body />
 
-    <Footer />
+    <Reflexotherapy />
+
+    {/* <AboutMe /> */}
+    {/* <Body /> */}
     {/* <Course /> */}
+    <Footer />
   </div>
 );
 
