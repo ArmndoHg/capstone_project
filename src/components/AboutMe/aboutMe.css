@@ -8,7 +8,8 @@
 
 .about-me-photo {
   width: 100%;
-  height: 50vh;
+  height: 70vh;
+  border-radius: 40%;
   object-fit: cover;
 }
 
