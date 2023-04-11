@@ -1,0 +1,22 @@
+.benefits-list {
+  margin: 2rem;
+}
+
+.benefits-icon {
+  padding-right: 1rem;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.benefits-icon::before {
+  content: "";
+}
+
+.ul-benefits {
+  list-style: none;
+}
+
+.benefits-icon-description {
+  font-size: 1.5rem;
+  color: grey;
+}

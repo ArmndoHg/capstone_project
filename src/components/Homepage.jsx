@@ -7,6 +7,7 @@ import Jumbotron from "./Jumbotron/Jumbotron";
 import Footer from "./Footer/Footer";
 import AboutMe from "./AboutMe/AboutMe";
 import Reflexotherapy from "./Reflexotherapy/Reflexotherapy";
+import FireCupping from "./FireCupping/FireCupping";
 
 const Homepage = () => (
   <div className="home">
@@ -15,6 +16,7 @@ const Homepage = () => (
     <Jumbotron />
 
     <Reflexotherapy />
+    <FireCupping />
 
     {/* <AboutMe /> */}
     {/* <Body /> */}

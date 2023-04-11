@@ -16,17 +16,64 @@
   margin-bottom: 2rem;
 }
 
+/* here something from benefits */
+
 @media (max-width: 992px) {
   .reflexo-section1 {
     display: flex;
+    flex-direction: column;
+
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.7)
+      ),
+      url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1086849572.jpg?crop=0.668xw:1.00xh;0.282xw,0&resize=480:*);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 15px;
+  }
+
+  .reflexo-body {
+    display: flex;
+
     justify-content: center;
   }
 
-  .reflexo-section2 {
+  /* .reflexo-section2 {
     margin-top: 0;
     display: flex;
     justify-content: center;
+  } */
+
+  .reflexo-body-section2 {
+    display: none;
+  }
+
+  .reflexo-row {
+    margin: 0 !important;
+  }
+
+  .reflexo-price {
+    margin-bottom: 1rem;
   }
 }
 
-/* Media screen for changing image size */
+.btn-outline-success {
+  border-color: transparent !important;
+}
+
+.duration-div {
+  flex-direction: column-reverse;
+}
+
+.book {
+  font-size: small;
+}
+
+.duration {
+  font-size: large;
+}
