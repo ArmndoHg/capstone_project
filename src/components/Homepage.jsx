@@ -8,6 +8,7 @@ import Footer from "./Footer/Footer";
 import AboutMe from "./AboutMe/AboutMe";
 import Reflexotherapy from "./Reflexotherapy/Reflexotherapy";
 import FireCupping from "./FireCupping/FireCupping";
+import FacialAcupuncture from "./FacialAcupuncture/FacialAcupuncture";
 
 const Homepage = () => (
   <div className="home">
@@ -17,7 +18,7 @@ const Homepage = () => (
 
     <Reflexotherapy />
     <FireCupping />
-
+    <FacialAcupuncture />
     {/* <AboutMe /> */}
     {/* <Body /> */}
     {/* <Course /> */}

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "./reflexotherapy.css";
 import Divider from "../Divider/Divider";
 import { GiFootprint } from "react-icons/gi";
@@ -25,18 +25,9 @@ const Reflexotherapy = () => (
               benefit5="Eliminate toxins."
               benefit6="Stimulate the central nervous system."
             />
-            {/* Create Button book component
-             */}
-            <ButtonBook />
-            <div className="reflexo-price d-flex justify-content-center">
-              <div className="mr-3 d-flex duration-div ">
-                <h3 className=" duration">Duration: 50min</h3>
-              </div>
-              <div className="book-btn">
-                <Button className="book" variant="outline-success">
-                  PLN 100
-                </Button>
-              </div>
+
+            <div className="reflexo-price">
+              <ButtonBook duration="50min" price="150" />
             </div>
           </div>
         </div>

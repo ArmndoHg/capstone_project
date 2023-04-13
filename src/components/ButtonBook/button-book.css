@@ -1,0 +1,16 @@
+.btn-outline-success {
+  border-color: transparent !important;
+}
+
+.duration-div {
+  flex-direction: column-reverse;
+}
+
+.book {
+  font-size: small;
+}
+
+.duration {
+  font-size: large;
+  border-bottom: 1px solid #28a745;
+}

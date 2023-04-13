@@ -1,14 +1,15 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import "./button-book.css";
 
-const ButtonBook = () => (
-  <div className="reflexo-price d-flex justify-content-center">
+const ButtonBook = (props) => (
+  <div className="button-price d-flex justify-content-center">
     <div className="mr-3 d-flex duration-div ">
-      <h3 className=" duration">Duration: 50min</h3>
+      <h3 className=" duration">Duration: {props.duration}</h3>
     </div>
     <div className="book-btn">
       <Button className="book" variant="outline-success">
-        PLN 100
+        PLN {props.price}
       </Button>
     </div>
   </div>

@@ -15,18 +15,39 @@
   margin-bottom: 2rem;
 }
 
-.btn-outline-success {
-  border-color: transparent !important;
-}
+@media (max-width: 992px) {
+  .fire-cupping-benefits {
+    display: flex;
+    flex-direction: column;
 
-.duration-div {
-  flex-direction: column-reverse;
-}
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.7)
+      ),
+      url(https://img.freepik.com/foto-gratis/proceso-ventosa-vista-superior_23-2148824060.jpg?w=360&t=st=1681215607~exp=1681216207~hmac=62606fa06d0b8b0b63e7f02eead0eddd2832c05df9510fbecf10348db950a50c);
 
-.book {
-  font-size: small;
-}
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-.duration {
-  font-size: large;
+    border-radius: 15px;
+  }
+
+  .fire-benefits-section2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fire-photo {
+    display: none;
+  }
+
+  .margin-fire-0 {
+    margin: 0 !important;
+  }
+
+  .fire-price {
+    margin-bottom: 1rem;
+  }
 }

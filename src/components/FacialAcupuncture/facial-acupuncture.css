@@ -1,0 +1,46 @@
+.facial-photo {
+  width: 100%;
+}
+
+.facial-photo-img {
+  width: 90%;
+  height: 65vh;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.facial-price2 {
+  display: none;
+}
+
+.facial-price1 {
+  margin-top: 3rem;
+}
+
+@media (max-width: 992px) {
+  .facial-benefits-section1,
+  .facial-benefits-section2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .facial-benefits-section2 {
+    margin-bottom: 1rem;
+  }
+  .facial-photo-section {
+    display: none;
+  }
+
+  .facial-price2 {
+    display: block;
+  }
+}
+
+/* .full-background {
+  width: 70%;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-image: url(https://www.wellme.es/site/article/61833/52067/para-que-sirve-la-acupuntura-9-beneficios-de-la-acupuntura-0_ai1.jpg);
+} */
