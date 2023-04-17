@@ -1,0 +1,22 @@
+/* .list-benefit {
+  margin: 2rem;
+} */
+
+.single-benefit-icon {
+  padding-right: 1rem;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.single-benefit-icon::before {
+  content: "";
+}
+
+.ul-single-benefit {
+  list-style: none;
+}
+
+.single-benefit-description {
+  font-size: 1.5rem;
+  color: grey;
+}

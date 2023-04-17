@@ -9,6 +9,8 @@ import AboutMe from "./AboutMe/AboutMe";
 import Reflexotherapy from "./Reflexotherapy/Reflexotherapy";
 import FireCupping from "./FireCupping/FireCupping";
 import FacialAcupuncture from "./FacialAcupuncture/FacialAcupuncture";
+import TCMDiet from "./TCMDiet/TCMDiet";
+import HerbalMedicine from "./HerbalMedicine/HerbalMedicine";
 
 const Homepage = () => (
   <div className="home">
@@ -19,6 +21,10 @@ const Homepage = () => (
     <Reflexotherapy />
     <FireCupping />
     <FacialAcupuncture />
+
+    <TCMDiet />
+
+    <HerbalMedicine />
     {/* <AboutMe /> */}
     {/* <Body /> */}
     {/* <Course /> */}

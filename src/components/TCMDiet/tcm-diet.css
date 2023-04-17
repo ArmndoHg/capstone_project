@@ -1,0 +1,65 @@
+.diet-image-body {
+  margin-bottom: 1rem;
+}
+
+.diet-image {
+  width: 100%;
+}
+
+.diet-photo {
+  width: 93%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.benefits-section1,
+.benefits-section2,
+.benefits-section3 {
+  margin: 2rem;
+}
+
+.benefits-section-hidden {
+  display: none;
+}
+
+.diet-price {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+  .benefits-section-hidden {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.7)
+      ),
+      url(https://www.tcmshanghai.ae/wp-content/uploads/2019/04/tcm-food-dubai.jpg);
+
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 15px;
+    /* margin-bottom: 1rem; */
+  }
+
+  .benefits-section1,
+  .benefits-section2,
+  .benefits-section3 {
+    display: none;
+  }
+
+  .diet-image-body {
+    display: none;
+  }
+
+  .diet-price {
+    display: none;
+  }
+}
