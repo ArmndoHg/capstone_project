@@ -1,15 +1,28 @@
-.herbal-image {
+.middle-section2 {
   width: 100%;
 }
 
-.herbal-photo {
+.middle-photo {
   width: 100%;
-  height: 70vh;
-
+  height: 45vh;
   object-fit: cover;
   object-position: center;
   background-repeat: no-repeat;
 
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
+}
+
+.herbal-price-hidden {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .herbal-middle-section2 {
+    display: none;
+  }
+
+  .herbal-price-hidden {
+    display: block;
+  }
 }

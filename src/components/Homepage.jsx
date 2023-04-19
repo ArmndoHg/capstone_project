@@ -11,6 +11,7 @@ import FireCupping from "./FireCupping/FireCupping";
 import FacialAcupuncture from "./FacialAcupuncture/FacialAcupuncture";
 import TCMDiet from "./TCMDiet/TCMDiet";
 import HerbalMedicine from "./HerbalMedicine/HerbalMedicine";
+import BodyDetox from "./BodyDetox/BodyDetox";
 
 const Homepage = () => (
   <div className="home">
@@ -25,6 +26,8 @@ const Homepage = () => (
     <TCMDiet />
 
     <HerbalMedicine />
+
+    <BodyDetox />
     {/* <AboutMe /> */}
     {/* <Body /> */}
     {/* <Course /> */}
