@@ -7,7 +7,7 @@ import Benefits from "../Benefits/Benefits";
 import ButtonBook from "../ButtonBook/ButtonBook";
 
 const Reflexotherapy = () => (
-  <Container fluid>
+  <Container>
     <Row className="ml-5 mr-5 reflexo-row">
       <Col lg={12}>
         {" "}

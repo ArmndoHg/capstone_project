@@ -7,7 +7,7 @@ import { FaBacteria } from "react-icons/fa";
 import ButtonBook from "../ButtonBook/ButtonBook";
 
 const BodyDetox = () => (
-  <Container fluid>
+  <Container>
     <Row>
       <Col lg={12}>
         <div className="detox-header">
@@ -125,7 +125,7 @@ const BodyDetox = () => (
         <div className="detox-section-bottom text-center">
           <div className="detox-section-image">
             <img
-              src="https://theayurstore.in/blog/wp-content/uploads/2020/04/Detox-Feature-Image.jpg"
+              src="https://img.freepik.com/fotos-premium/fondo-batidos-jugo-desintoxicacion_167361-12.jpg?w=740"
               alt="detox"
               className="detox-photo"
             />

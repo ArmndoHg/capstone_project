@@ -7,7 +7,7 @@ import { TbNeedle } from "react-icons/tb";
 import ButtonBook from "../ButtonBook/ButtonBook";
 
 const FacialAcupuncture = () => (
-  <Container fluid>
+  <Container>
     <Row>
       <Col lg={12}>
         <Divider header="Facial Acupuncture" />
@@ -55,7 +55,7 @@ const FacialAcupuncture = () => (
               benefit3="Reduces skin sagging"
               benefit4="Improved skin texture."
               benefit5="Better than botox"
-              benefit6=" minimize dark circles"
+              benefit6="Minimize dark circles"
             />
             <div className="facial-price2">
               <ButtonBook duration="1h 30min" price="250" />

@@ -8,7 +8,7 @@
 
 .diet-photo {
   width: 93%;
-  height: 50vh;
+  height: 300px;
   object-fit: cover;
   object-position: center;
   border-radius: 15px;

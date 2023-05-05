@@ -1,6 +1,5 @@
 .reflexo-section2 {
   width: 100%;
-
   margin-top: 2rem;
   display: flex;
   justify-content: center;
@@ -8,7 +7,7 @@
 
 .reflexo-photo {
   width: 90%;
-  height: 65vh;
+  height: 550px;
   object-fit: cover;
   object-position: center;
   border-radius: 15px;

@@ -12,6 +12,7 @@ import FacialAcupuncture from "./FacialAcupuncture/FacialAcupuncture";
 import TCMDiet from "./TCMDiet/TCMDiet";
 import HerbalMedicine from "./HerbalMedicine/HerbalMedicine";
 import BodyDetox from "./BodyDetox/BodyDetox";
+import PriceList from "./PriceList/PriceList";
 
 const Homepage = () => (
   <div className="home">
@@ -28,6 +29,8 @@ const Homepage = () => (
     <HerbalMedicine />
 
     <BodyDetox />
+
+    <PriceList />
     {/* <AboutMe /> */}
     {/* <Body /> */}
     {/* <Course /> */}

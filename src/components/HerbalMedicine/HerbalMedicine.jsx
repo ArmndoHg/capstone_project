@@ -7,13 +7,13 @@ import { GiHerbsBundle } from "react-icons/gi";
 import ButtonBook from "../ButtonBook/ButtonBook";
 
 const HerbalMedicine = () => (
-  <Container fluid>
+  <Container>
     <Row className="mr-3 ml-3">
       <Col lg={12}>
         <Divider header="Herbal Medicine" />
       </Col>
     </Row>{" "}
-    <Row className="mr-3 ml-3">
+    <Row className="background-media mr-3 ml-3">
       <Col lg={4}>
         <div className="herbal-top-section1">
           <div className="top-section2">
@@ -51,7 +51,7 @@ const HerbalMedicine = () => (
         </div>
       </Col>
     </Row>
-    <Row className="mr-3 ml-3">
+    <Row className="background-media mr-3 ml-3">
       <Col lg={4}>
         <div className="herbal-middle-section1">
           <div className="middle-senction1">
@@ -105,7 +105,7 @@ const HerbalMedicine = () => (
           <div className="middle-section2 text-center mb-4">
             <img
               src="https://campuspress.yale.edu/ledger/files/2022/03/medical-blog-umer.jpeg"
-              alt="herbal"
+              alt="herbal-medicine"
               className="middle-photo"
             />
           </div>
@@ -157,7 +157,7 @@ const HerbalMedicine = () => (
         </div>
       </Col>
     </Row>
-    <Row className="mr-3 ml-3">
+    <Row className=" background-media mr-3 ml-3">
       <Col lg={4}>
         <div className="herbal-bottom-section1">
           <div className="bottom-section1">

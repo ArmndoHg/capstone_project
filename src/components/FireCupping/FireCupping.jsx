@@ -7,7 +7,7 @@ import Benefits from "../Benefits/Benefits";
 import ButtonBook from "../ButtonBook/ButtonBook";
 
 const FireCupping = () => (
-  <Container fluid>
+  <Container>
     <Row className="ml-5 mr-5 margin-fire-0">
       <Col lg={12}>
         {" "}

@@ -8,7 +8,7 @@ import "./tcm-diet.css";
 import ButtonBook from "../ButtonBook/ButtonBook";
 
 const TCMDiet = () => (
-  <Container fluid>
+  <Container>
     <Row>
       {" "}
       <Col lg={12}>
