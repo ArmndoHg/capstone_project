@@ -10,7 +10,7 @@ const Course = () => (
           <Carousel.Item>
             <img
               className="d-block w-100 courseImg"
-              src="https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/328607920_587650606168605_6202742407367884539_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=BbyV8jjLy4MAX89KfS5&_nc_ht=scontent.fktw1-1.fna&oh=00_AfBuxcMZd0rfvInPVePK0Z1fn7jFHMQNLKOhEWgkih7iOg&oe=642F757D"
+              src="https://www.archwayshealingcollege.com/images/2017-reflex-class-Chiro-space.PNG"
               alt="First slide"
             />
             <Carousel.Caption>
@@ -21,7 +21,7 @@ const Course = () => (
           <Carousel.Item>
             <img
               className="d-block w-100 courseImg"
-              src="https://scontent.fktw4-1.fna.fbcdn.net/v/t39.30808-6/328155171_912844756511497_4782936101851217151_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=91lxBAC7WksAX8mcsUo&_nc_ht=scontent.fktw4-1.fna&oh=00_AfDBgegYaWAeP9nsYLptRJS9NG75acodfKs2yxi8h1J_Dg&oe=642F0B5A"
+              src="https://images.squarespace-cdn.com/content/v1/5d2e1b1f4973fc0001feed14/1568844803385-WRPGHFXDRU9QUUPLKDZM/Screen+Shot+2019-08-13+at+3.50.42+PM.png?format=500w"
               alt="Second slide"
             />
 
@@ -33,7 +33,7 @@ const Course = () => (
           <Carousel.Item>
             <img
               className="d-block w-100 courseImg"
-              src="https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/328621846_906502957146494_803115569198274689_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=wORvqfoc260AX_hyI7V&_nc_ht=scontent.fktw1-1.fna&oh=00_AfCs0_36u84ssqBGgWEDmyR1IWxtCADSXPnF5bxuOQezmQ&oe=642E4557"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4VPKbJARn7XtgpfruzVxOQTWsjBJnfNFhpQ&usqp=CAU"
               alt="Third slide"
             />
 

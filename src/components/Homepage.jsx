@@ -13,27 +13,32 @@ import TCMDiet from "./TCMDiet/TCMDiet";
 import HerbalMedicine from "./HerbalMedicine/HerbalMedicine";
 import BodyDetox from "./BodyDetox/BodyDetox";
 import PriceList from "./PriceList/PriceList";
+import Blog from "./Blog/Blog";
 
 const Homepage = () => (
   <div className="home">
     {/* <AboveNavBar /> */}
+
     <MyNavbar />
     <Jumbotron />
 
-    <Reflexotherapy />
-    <FireCupping />
-    <FacialAcupuncture />
+    {/* <AboutMe /> */}
+    <Body />
+    {/* <Course /> */}
 
-    <TCMDiet />
-
-    <HerbalMedicine />
-
+    {/* <Reflexotherapy /> */}
+    {/* <FireCupping /> */}
+    {/* <FacialAcupuncture /> */}
+    {/* <TCMDiet /> */}
+    {/* <HerbalMedicine /> */}
     <BodyDetox />
 
+    {/* ******************** need to implement it ******************* */}
     <PriceList />
-    {/* <AboutMe /> */}
-    {/* <Body /> */}
-    {/* <Course /> */}
+    {/* ********************************** */}
+
+    <Blog />
+
     <Footer />
   </div>
 );

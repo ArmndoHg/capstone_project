@@ -83,7 +83,7 @@ const MyNavbar = () => (
           rel="noopener"
           className="color-icons facebook-icon"
         >
-          <Icon.Facebook size={35} />
+          <Icon.Facebook size={30} />
         </Nav.Link>
         <Nav.Link
           eventKey={2}
@@ -92,7 +92,7 @@ const MyNavbar = () => (
           rel="noopener"
           className="color-icons whatsapp-icon"
         >
-          <Icon.Whatsapp size={35} />
+          <Icon.Whatsapp size={30} />
         </Nav.Link>
         <Nav.Link
           eventKey={2}
@@ -100,7 +100,7 @@ const MyNavbar = () => (
           rel="noopener"
           className="color-icons phone-icon"
         >
-          <Icon.Phone size={35} />
+          <Icon.Phone size={30} />
         </Nav.Link>
         <Nav.Link
           eventKey={2}
@@ -109,7 +109,7 @@ const MyNavbar = () => (
           rel="noopener"
           className="color-icons e-mail-icon"
         >
-          <Icon.EnvelopeAt size={35} />
+          <Icon.EnvelopeAt size={30} />
         </Nav.Link>
         <Nav.Link
           eventKey={2}
@@ -118,7 +118,7 @@ const MyNavbar = () => (
           rel="noopener"
           className="color-icons maps-icon"
         >
-          <Icon.GeoAlt size={35} />
+          <Icon.GeoAlt size={30} />
         </Nav.Link>
       </Nav>
     </Navbar.Collapse>

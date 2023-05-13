@@ -43,7 +43,7 @@
   background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202011/smoothie-3697014_1280_1200x768.jpeg?size=690:388);
 }
 .therapy-photo2 {
-  background-image: url(https://mch.pranaspapremium.pl/wp-content/uploads/2019/06/masaz-stop-i-nog-refleksoterapia.jpg);
+  background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/16/94/64/f8/reflexotherapy-tomic.jpg);
 }
 .therapy-photo3 {
   background-image: url(https://sagehealthonline.com/wp-content/uploads/2016/08/Fire-cupping-on-back.jpg);
@@ -57,7 +57,7 @@
 .therapy-photo3,
 .therapy-photo4 {
   width: 100%;
-  height: 40vh;
+  height: 250px;
   background-size: cover;
   background-position: center;
   border-radius: 15px;
